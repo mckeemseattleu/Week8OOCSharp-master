@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="obj\Debug\net8.0\apphost.exe" />
+      <Content Include="obj\Debug\net8.0\refint\Week8OOCSharp.dll" />
+      <Content Include="obj\Debug\net8.0\ref\Week8OOCSharp.dll" />
+      <Content Include="obj\Debug\net8.0\Week8OOCSharp.AssemblyInfoInputs.cache" />
+      <Content Include="obj\Debug\net8.0\Week8OOCSharp.assets.cache" />
+      <Content Include="obj\Debug\net8.0\Week8OOCSharp.csproj.CoreCompileInputs.cache" />
+      <Content Include="obj\Debug\net8.0\Week8OOCSharp.csproj.FileListAbsolute.txt" />
+      <Content Include="obj\Debug\net8.0\Week8OOCSharp.dll" />
+      <Content Include="obj\Debug\net8.0\Week8OOCSharp.GeneratedMSBuildEditorConfig.editorconfig" />
+      <Content Include="obj\Debug\net8.0\Week8OOCSharp.genruntimeconfig.cache" />
+      <Content Include="obj\Debug\net8.0\Week8OOCSharp.pdb" />
+      <Content Include="obj\Debug\net8.0\Week8OOCSharp.sourcelink.json" />
+      <Content Include="obj\project.assets.json" />
+      <Content Include="obj\project.nuget.cache" />
+      <Content Include="obj\project.packagespec.json" />
+      <Content Include="obj\rider.project.restore.info" />
+      <Content Include="obj\Week8OOCSharp.csproj.nuget.dgspec.json" />
+      <Content Include="obj\Week8OOCSharp.csproj.nuget.g.props" />
+      <Content Include="obj\Week8OOCSharp.csproj.nuget.g.targets" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+      <Compile Include="obj\Debug\net8.0\Week8OOCSharp.AssemblyInfo.cs" />
+      <Compile Include="obj\Debug\net8.0\Week8OOCSharp.GlobalUsings.g.cs" />
+      <Compile Remove="obj\**" />
+      <Compile Remove="Generics3.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="obj\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="obj\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="SQLite" Version="3.13.0" />
+      <PackageReference Include="sqlite-net" Version="1.6.292" />
+      <PackageReference Include="System.Data.SQLite" Version="1.0.119" />
+    </ItemGroup>
+
+</Project>
